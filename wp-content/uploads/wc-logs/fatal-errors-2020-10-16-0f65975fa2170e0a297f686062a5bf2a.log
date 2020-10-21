@@ -1,0 +1,32 @@
+2020-10-16T05:51:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\woocommerce\single-product\tabs\tabs.php on line 62 and at least 2 expected in E:\xampp\htdocs\eshopper\wp-includes\plugin.php:583
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\woocommerce\single-product\tabs\tabs.php(62): remove_action('woocommerce_pro...')
+#1 E:\xampp\htdocs\eshopper\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1538): wc_get_template('single-product/...')
+#3 E:\xampp\htdocs\eshopper\wp-includes\class-wp-hook.php(288): woocommerce_output_product_data_tabs('')
+#4 E:\xampp\htdocs\eshopper\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 E:\xampp\htdocs\eshopper\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 E:\xampp\htdocs\eshopper\wp-content\themes\esho in E:\xampp\htdocs\eshopper\wp-includes\plugin.php on line 583
+
+2020-10-16T06:01:04+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH) in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\woocommerce\single-product\tabs\tabs.php on line 63
+
+2020-10-16T07:54:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\eshopper\wp-content\plugins\woocommerce\includes\rest-api\Utilities\SingletonTrait.php on line 13
+
+2020-10-16T09:10:12+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 185
+
+2020-10-16T09:22:25+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 185
+
+2020-10-16T09:22:39+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 185
+
+2020-10-16T09:22:40+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 185
+
+2020-10-16T09:30:05+00:00 CRITICAL syntax error, unexpected '$brandcontent' (T_VARIABLE), expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 186
+
+2020-10-16T09:30:30+00:00 CRITICAL syntax error, unexpected '$brandcontent' (T_VARIABLE), expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 188
+
+2020-10-16T09:30:33+00:00 CRITICAL syntax error, unexpected '$brandcontent' (T_VARIABLE), expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 188
+
+2020-10-16T09:30:46+00:00 CRITICAL syntax error, unexpected '$brandcontent' (T_VARIABLE), expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 188
+
+2020-10-16T10:29:20+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 216
+

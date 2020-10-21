@@ -1,0 +1,22 @@
+2020-10-19T10:02:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\eshopper\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-status.php on line 199
+
+2020-10-19T10:27:15+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 89
+
+2020-10-19T10:29:05+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 88
+
+2020-10-19T10:36:59+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 21
+
+2020-10-19T10:39:09+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 21
+
+2020-10-19T10:40:54+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 21
+
+2020-10-19T10:44:54+00:00 CRITICAL syntax error, unexpected ')' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 25
+
+2020-10-19T10:47:18+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 23
+
+2020-10-19T10:48:54+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 23
+
+2020-10-19T10:49:58+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 23
+
+2020-10-19T10:50:03+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 23
+

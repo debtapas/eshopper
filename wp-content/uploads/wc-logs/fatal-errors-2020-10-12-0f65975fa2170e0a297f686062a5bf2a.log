@@ -1,0 +1,10 @@
+2020-10-12T05:15:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\eshopper\wp-admin\includes\class-wp-internal-pointers.php on line 15
+
+2020-10-12T09:52:03+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\eshopper\wp-includes\Requests\IRI.php on line 658
+
+2020-10-12T10:44:55+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 29
+
+2020-10-12T10:45:05+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 28
+
+2020-10-12T10:47:08+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 29
+
