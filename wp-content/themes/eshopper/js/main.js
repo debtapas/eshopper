@@ -29,4 +29,19 @@ $(document).ready(function () {
             zIndex: 2147483647 // Z-Index for the overlay
         });
     });
+
+//Cart page Quantity UP and DOWN arrow modify ~~~~~~~~~~~~~~~~~~~~~
+    $(document).on('click','.cart_quantity_up',function(e){
+        e.preventDefault();
+        var __elem = $(this).siblings('.quantity').find('input');
+        __elem.val(parseInt(__elem.val()) + 1 );
+    });
+    $(document).on('click','.cart_quantity_down',function(e){
+        e.preventDefault();
+        var __elem = $(this).siblings('.quantity').find('input');
+        if(parseInt(__elem.val())<1)
+            return false;
+        __elem.val(parseInt(__elem.val()) - 1 );
+    });
+    
 });

@@ -115,5 +115,37 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 
-/* ~~~~~~~~~~~~~~~~~~~~~~ For Testing pepose ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* ~~~~~~~~~~~~~~~~~~~~~~ For Testing pepose second ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Cart page Quantity UP and DOWN arrow modify ~~~~~~~~~~~~~~~~~~~~~*/
+.woocommerce .quantity .qty {
+    width: 46px !important;
+    float: left;
+    height: 28px;
+ }
+/* Chrome, Safari, Edge, Opera */
+.quantity > input::-webkit-outer-spin-button,
+.quantity > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.quantity > input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+thead > .cart_menu {
+    color: #FFFFFF !important;
+}
+.woocommerce table.shop_table td {
+    font-size: 18px;
+}
+.product-subtotal .woocommerce-Price-amount.amount{
+    color: #FE980F;
+    font-size: 24px;
+}
+.woocommerce table.shop_table th {
+    font-weight: 400;
+    font-size: 16px;
+}
