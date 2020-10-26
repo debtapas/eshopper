@@ -1,0 +1,126 @@
+2020-10-26T10:50:34+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:86
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 86
+
+2020-10-26T10:51:50+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:89
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 89
+
+2020-10-26T10:51:53+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:89
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 89
+
+2020-10-26T10:51:59+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:89
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 89
+
+2020-10-26T10:52:05+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:89
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 89
+
+2020-10-26T10:52:09+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:89
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 89
+
+2020-10-26T10:52:28+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:93
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 93
+
+2020-10-26T10:52:32+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:93
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 93
+
+2020-10-26T10:53:22+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:84
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 84
+
+2020-10-26T10:53:25+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:84
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 84
+
+2020-10-26T10:54:48+00:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php:20
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\page.php on line 20
+
+2020-10-26T10:58:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 236 and at least 2 expected in E:\xampp\htdocs\eshopper\wp-includes\plugin.php:583
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php(236): remove_action('woocommerce_aft...')
+#1 E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\functions.php(2): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\wp-settings.php(497): include('E:\\xampp\\htdocs...')
+#3 E:\xampp\htdocs\eshopper\wp-config.php(90): require_once('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\eshopper\wp-load.php(37): require_once('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\eshopper\wp-blog-header.php(13): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-includes\plugin.php on line 583
+
+2020-10-26T10:58:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 236 and at least 2 expected in E:\xampp\htdocs\eshopper\wp-includes\plugin.php:583
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php(236): remove_action('woocommerce_aft...')
+#1 E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\functions.php(2): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\wp-settings.php(497): include('E:\\xampp\\htdocs...')
+#3 E:\xampp\htdocs\eshopper\wp-config.php(90): require_once('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\eshopper\wp-load.php(37): require_once('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\eshopper\wp-blog-header.php(13): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-includes\plugin.php on line 583
+
+2020-10-26T11:04:52+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 250
+
+2020-10-26T11:07:44+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 286
+
+2020-10-26T11:08:16+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 284
+
+2020-10-26T11:08:17+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 284
+
+2020-10-26T11:08:17+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 284
+
+2020-10-26T11:08:19+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 284
+
+2020-10-26T11:10:40+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\inc\support.php on line 284
+

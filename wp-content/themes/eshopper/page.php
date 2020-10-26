@@ -79,16 +79,7 @@
 								endwhile; // End of the loop.
 							?>
 						</div>
-						
-						
-						<div class="pagination-area">
-							<ul class="pagination">
-								<li><a href="" class="active">1</a></li>
-								<li><a href="">2</a></li>
-								<li><a href="">3</a></li>
-								<li><a href=""><i class="fa fa-angle-double-right"></i></a></li>
-							</ul>
-						</div>
+
 
 					</div>
 				</div>
