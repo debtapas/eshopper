@@ -277,7 +277,7 @@ function eshopper_custom_pagination($numpages = '', $pagerange = '', $paged='') 
    //echo "<span class='page-numbers page-num'>Page " . $paged . " of " . $numpages . "</span> ";
    echo "<ul class='pagination'>";
    foreach ( $paginate_links as $page ) {
-     echo "<li>$page</li>";
+     echo "<li>" . $page . "</li>";
    }
    echo '</ul>';
  }
