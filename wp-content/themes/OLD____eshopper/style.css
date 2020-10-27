@@ -1,0 +1,151 @@
+/*
+Theme Name: echopper
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*~~~~~~~~~~ Woocommerce style ~~~~~~~ */
+.woocommerce ul.products li.product .price{
+    color: #FE980F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.woocommerce ul.products li.product .woocommerce-loop-product__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #696763;
+}
+.woocommerce div.product div.images,
+.woocommerce-page div.product div.images {
+    width: 100%;
+}
+.woocommerce div.product div.summary,
+.woocommerce-page div.product div.summary {
+    float: none;
+    width: 100%;
+}
+.woocommerce div.product div.images img {
+    width: auto;
+    
+}
+.woocommerce div.product div.images .woocommerce-product-gallery__image:nth-child(n+2) {
+    display: none;
+}
+#similar-product .carousel-inner .item img{
+    width: 33.333%;
+    border: 1px solid #ececec;
+}
+.view-product h3 {
+    top: 220px;
+    bottom: auto !important;
+}
+.cart {
+    margin-left: 0 !important;
+}
+.shop-details-tab {
+    clear: both;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border: none;
+    background-color: transparent;
+    z-index: 0;
+    border-radius: 0;
+    margin: 0;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background: #FE980F;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: transparent;
+    border: 0;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs::before {
+    border-bottom: 0 !important;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after,
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+    width: 0;
+    height: 0;
+    border-bottom-right-radius: 0 !important;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    font-weight: unset;
+    color: #B3AFA8;
+    padding: .71em 1em;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    padding: 0;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    padding: 0;
+}
+.shop-menu ul li {
+    display: inline-flex;
+}
+.cart {
+    background: transparent !important;
+}
+.woocommerce table.shop_table thead {
+    background: #FE980F;
+}
+.woocommerce table.shop_table th {
+    padding: 14px 30px;
+}
+.blog-post-area .single-blog-post a img {
+    width: 110px !important;
+}
+.product-name h4 a{
+    color: #363432;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+/*Cart page Quantity UP and DOWN arrow modify ~~~~~~~~~~~~~~~~~~~~~*/
+.woocommerce .quantity .qty {
+    width: 46px !important;
+    float: left;
+    height: 28px;
+ }
+/* Chrome, Safari, Edge, Opera */
+.quantity > input::-webkit-outer-spin-button,
+.quantity > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.quantity > input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+thead > .cart_menu {
+    color: #FFFFFF !important;
+}
+.woocommerce table.shop_table td {
+    font-size: 18px;
+}
+.product-subtotal .woocommerce-Price-amount.amount{
+    color: #FE980F;
+    font-size: 24px;
+}
+.woocommerce table.shop_table th {
+    font-weight: 400;
+    font-size: 16px;
+}

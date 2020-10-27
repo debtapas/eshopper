@@ -123,9 +123,8 @@ do_action( 'woocommerce_after_main_content' );
  * @hooked woocommerce_get_sidebar - 10
  */
 do_action( 'woocommerce_sidebar' );?>
-					</div>		
-		<?php eshopper_custom_pagination(); ?>			
-				</div>				
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
