@@ -283,3 +283,5 @@ function eshopper_custom_pagination($numpages = '', $pagerange = '', $paged='') 
  }
 }
 //add_action( 'woocommerce_after_shop_loop', 'eshopper_custom_pagination', 10 );
+
+// this is for testing purpose ~~~~~~~~~~~~~~~
