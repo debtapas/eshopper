@@ -1,12 +1,5 @@
 <?php 
 
-function eshopper_post_thumbnails() {
-	add_theme_support('woocommerce');                //Declare WooCommerce support in your theme ~~~~~~~~~~~~~~~~~~
-    add_theme_support( 'post-thumbnails' );          //Add featured image setting in the dashboard ~~~~~~~~~~~~~~~~~~~~~~
-}
-add_action( 'after_setup_theme', 'eshopper_post_thumbnails' );
-
-
 //Register Nav Menus ~~~~~~~~~~~~~~~~~~~~~
 function register_my_menus() {
   register_nav_menus(
@@ -20,7 +13,6 @@ function register_my_menus() {
   );
 }
 add_action( 'init', 'register_my_menus' );
-
 
 
 // Custom post type for Front page Banner ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -76,6 +68,12 @@ if( function_exists('acf_add_options_page') ) {
 	acf_add_options_sub_page(array(
 		'page_title' 	=> 'Theme Footer Settings',
 		'menu_title'	=> 'Footer',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Logo Settings',
+		'menu_title'	=> 'Logo',
 		'parent_slug'	=> 'theme-general-settings',
 	));
 	

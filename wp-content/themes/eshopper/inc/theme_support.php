@@ -1,5 +1,13 @@
 <?php
 
+function eshopper_post_thumbnails() {
+    add_theme_support('woocommerce');                //Declare WooCommerce support in your theme ~~~~~~~~~~~~~~~~~~
+    add_theme_support( 'post-thumbnails' );          //Add featured image setting in the dashboard ~~~~~~~~~~~~~~~~~~~~~~
+}
+add_action( 'after_setup_theme', 'eshopper_post_thumbnails' );
+
+
+// register_sidebar widget ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function eshoper_widgets_init() {
     register_sidebar( array(
         'name'          => __( 'Shop Page Sidebar', 'theme-slug' ),

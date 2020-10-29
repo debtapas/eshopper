@@ -29,73 +29,52 @@ get_header();
 								'orderd_by' => 'title',
 								'order' => 'DSC',
 								);
+							$loop = new WP_Query($arg);
 						?>
 						
 						<ol class="carousel-indicators">
-							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#slider-carousel" data-slide-to="1"></li>
-							<li data-target="#slider-carousel" data-slide-to="2"></li>
+							<?php
+							$i = 0;							
+								 while ( $loop -> have_posts() ) : $loop -> the_post();
+								 	$i++;
+								 	print_r($i); ?>
+								 	<li data-target="#slider-carousel" data-slide-to="<?php echo $i; ?>" class="<?php echo ($i == 1) ? 'active' : ''; ?>"></li>
+								 <?php endwhile; ?>
+							
 						</ol>
 						
 						<div class="carousel-inner">
 							<?php
-								$loop = new WP_Query($arg);
-								    while ( $loop -> have_posts() ) : $loop -> the_post(); ?>
-								        <div class="item active">
+								$i = 0;
+								 while ( $loop -> have_posts() ) : $loop -> the_post();
+								 	$i++; ?>
+
+								        <div class="item <?php echo ( $i == 1 ) ? 'active' : ''; ?>">
 											<div class="col-sm-6">
-												<h1><span>E</span><?php echo get_field('heading'); ?></h1>
+												<h1><span>E</span><?php echo get_field( "heading" ); ?></h1>
 												<h2><?php echo get_field('sub-heading'); ?></h2>
-												<p><?php the_field('description'); ?></p>
-												<button type="button" class="btn btn-default get"><a href="<?php the_field('button_link'); ?>"><?php the_field('description'); ?></a></button>
-											</div>
+												<p><?php echo get_field('description'); ?></p>
+												<button type="button" class="btn btn-default get"><a href="<?php echo get_field('button_link'); ?>"><?php echo get_field('button_text'); ?></a></button>
+											</div> <!-- col-sm-6 -->
 											<div class="col-sm-6">
 												<?php the_post_thumbnail('post-thumbnail', ['class' => 'girl img-responsive', 'title' => 'Feature image']); ?>
-												<img src="<?php the_field('price') ;?>"  class="pricing" alt="" />
-											</div>
+												<img src="<?php echo get_field('price') ;?>"  class="pricing" alt="" />
+											</div> <!-- col-sm-6 -->
 										</div>
 								    <?php endwhile; 
 							?>
-							
-							<!-- <div class="item">
-								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>100% Responsive Design</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="<?php// echo get_theme_file_uri(). '/images/home/girl2.jpg';?>" class="girl img-responsive" alt="" />
-									<img src="<?php//echo get_theme_file_uri(). '/images/home/pricing.png';?>"  class="pricing" alt="" />
-								</div>
-							</div> 
-							
-							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>Free Ecommerce Template</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="<?php// echo get_theme_file_uri(). '/images/home/girl3.jpg';?>" class="girl img-responsive" alt="" />
-									<img src="<?php// echo get_theme_file_uri(). '/images/home/pricing.png';?>" class="pricing" alt="" />
-								</div>
-							</div>
-							
-						</div-->
-						
+						</div> <!--  carousel-inner -->
 						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
 							<i class="fa fa-angle-left"></i>
 						</a>
 						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
 							<i class="fa fa-angle-right"></i>
 						</a>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</section><!--/slider-->
+				</div> <!-- id="slider-carousel -->
+			</div> <!-- col-sm-12 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</section><!--/slider-->
 	
 	<section>
 		<div class="container">
@@ -414,7 +393,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="images/home/gallery1.jpg" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery1.jpg'; ?> " alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -427,7 +406,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery2.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery2.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -440,7 +419,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="images/home/gallery3.jpg" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery3.jpg'; ?> " alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -453,7 +432,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery4.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery4.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -469,7 +448,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="images/home/gallery4.jpg" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery4.jpg'; ?> " alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -495,7 +474,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery2.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery2.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -508,7 +487,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery1.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery1.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -524,7 +503,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery3.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery3.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -537,7 +516,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery4.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery4.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -550,7 +529,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery1.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery1.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -563,7 +542,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery2.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery2.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -579,7 +558,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery1.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery1.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -592,7 +571,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery2.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery2.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -605,7 +584,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery3.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery3.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -618,7 +597,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery4.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery4.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -634,7 +613,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery2.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery2.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -647,7 +626,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery4.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery4.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -660,7 +639,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery3.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery3.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -673,7 +652,7 @@ get_header();
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="<?php echo get_theme_file_uri(). '/images/home/gallery1.jpg';?>" alt="" />
+												<img src="<?php echo get_theme_file_uri() . '/images/home/gallery1.jpg';?>" alt="" />
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
