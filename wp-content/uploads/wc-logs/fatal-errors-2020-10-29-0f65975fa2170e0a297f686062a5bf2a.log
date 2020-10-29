@@ -1,0 +1,8 @@
+2020-10-29T06:17:44+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\eshopper\wp-admin\includes\class-wp-site-icon.php on line 15
+
+2020-10-29T06:18:10+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\eshopper\wp-includes\Requests\Transport\cURL.php on line 441
+
+2020-10-29T07:19:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\eshopper\wp-includes\wp-db.php on line 2030
+
+2020-10-29T09:05:10+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\eshopper\wp-admin\includes\admin.php on line 10
+

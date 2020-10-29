@@ -7,6 +7,79 @@ function eshopper_post_thumbnails() {
 add_action( 'after_setup_theme', 'eshopper_post_thumbnails' );
 
 
+//Register Nav Menus ~~~~~~~~~~~~~~~~~~~~~
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'header-menu' => __( 'Header Menu' ),
+      'service' => __( 'Service' ),
+      'quock-shop' => __( 'Quock Shop' ),
+      'policies' => __( 'Policies' ),
+      'about-shopper' => __( 'About Shopper' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
+
+
+
+// Custom post type for Front page Banner ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+function eshopper_banner_custom_post() {
+	  $labels = array(
+	    'name'               => _x( 'Banner', 'post type general name' ),
+	    'singular_name'      => _x( 'Banner', 'post type singular name' ),
+	    'add_new'            => _x( 'Add New', 'banner' ),
+	    'add_new_item'       => __( 'Add New Banner' ),
+	    'edit_item'          => __( 'Edit Banner' ),
+	    'new_item'           => __( 'New Banner' ),
+	    'all_items'          => __( 'All Banners' ),
+	    'view_item'          => __( 'View Banner' ),
+	    'search_items'       => __( 'Search Banners' ),
+	    'not_found'          => __( 'No products found' ),
+	    'not_found_in_trash' => __( 'No products found in the Trash' ), 
+	    //'parent_item_colon'  => ’,
+	    'menu_name'          => 'Banners'
+	  );
+
+	  $args = array(
+	    'labels'        => $labels,
+	    'description'   => 'Holds our products and product specific data',
+	    'public'        => true,
+	    'menu_position' => 5,
+	    'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+	    'has_archive'   => true,
+	  );
+	  register_post_type( 'banners', $args ); 
+}
+
+add_action( 'init', 'eshopper_banner_custom_post' );
+
+
+// Options Page by ACF ~~~~~~~~~~~~~~~~~~~~
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page(array(
+		'page_title' 	=> 'Theme General Settings',
+		'menu_title'	=> 'Theme Settings',
+		'menu_slug' 	=> 'theme-general-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Header Settings',
+		'menu_title'	=> 'Header',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Footer Settings',
+		'menu_title'	=> 'Footer',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+	
+}
 
 
 //Remove breadcrumb action ~~~~~~~~~~~~~~~~~~~~~
@@ -275,13 +348,11 @@ function eshopper_custom_pagination($numpages = '', $pagerange = '', $paged='') 
  if (is_array($paginate_links)) {
    echo "<ul class='pagination'>";
    //echo "<span class='page-numbers page-num'>Page " . $paged . " of " . $numpages . "</span> ";
-   echo "<ul class='pagination'>";
    foreach ( $paginate_links as $page ) {
-     echo "<li>$page</li>";
+     echo "<li>" . $page . "</li>";
    }
    echo '</ul>';
  }
 }
 //add_action( 'woocommerce_after_shop_loop', 'eshopper_custom_pagination', 10 );
 
-// this is for testing purpose ~~~~~~~~~~~~~~~

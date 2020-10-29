@@ -42,19 +42,19 @@
 					<div class="col-sm-6">
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
-								<li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
-								<li><a href="#"><i class="fa fa-envelope"></i> info@domain.com</a></li>
+								<li><a href="#"><i class="fa fa-phone"></i> <?php the_field('phone_no', 'option'); ?></a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> <?php the_field('email_id', 'option'); ?></a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="social-icons pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="<?php the_field('social_icons', 'option'); ?>"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="<?php the_field('social_icons', 'option'); ?>"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="<?php the_field('social_icons', 'option'); ?>"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="<?php the_field('social_icons', 'option'); ?>"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="<?php the_field('social_icons', 'option'); ?>"><i class="fa fa-google-plus"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -120,8 +120,37 @@
 								<span class="icon-bar"></span>
 							</button>
 						</div>
+
+
+
 						<div class="mainmenu pull-left">
-							<ul class="nav navbar-nav collapse navbar-collapse">
+
+							<?php						
+								wp_nav_menu(
+									array(									
+										'theme_location'       => 'header-menu',
+										'menu'                 => '',
+								        'container'            => 'ul',							        
+										'container_class'      => '',
+								        'container_id'         => '',
+								        'container_aria_label' => '',
+								        'menu_class'           => 'nav navbar-nav collapse navbar-collapse',
+								        'menu_id'              => '',
+								        'echo'                 => true,
+								        'fallback_cb'          => 'wp_page_menu',
+								        'before'               => '',
+								        'after'                => '',
+								        'link_before'          => '',
+								        'link_after'           => '',
+								        'items_wrap'           => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+								        'item_spacing'         => 'preserve',
+								        'depth'                => 0,
+								        'walker'               => ''
+										)
+									);
+							?>
+
+							<!-- <ul class="nav navbar-nav collapse navbar-collapse">
 								<li><a href="index.html" class="active">Home</a></li>
 								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
@@ -140,8 +169,13 @@
                                 </li> 
 								<li><a href="404.html">404</a></li>
 								<li><a href="contact-us.html">Contact</a></li>
-							</ul>
+							</ul> -->
 						</div>
+
+
+
+
+
 					</div>
 					<div class="col-sm-3">
 						<div class="search_box pull-right">

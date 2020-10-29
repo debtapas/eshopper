@@ -13,7 +13,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="<?php echo get_theme_file_uri(). 'images/home/iframe1.png';?>" alt="" />
+										<img src="<?php echo get_theme_file_uri(). '/images/home/iframe1.png';?>" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -28,7 +28,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="<?php echo get_theme_file_uri(). 'images/home/iframe2.png';?>" alt="" />
+										<img src="<?php echo get_theme_file_uri(). '/images/home/iframe2.png';?>" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -43,7 +43,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="<?php echo get_theme_file_uri(). 'images/home/iframe3.png';?>" alt="" />
+										<img src="<?php echo get_theme_file_uri(). '/images/home/iframe3.png';?>" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -58,7 +58,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="<?php echo get_theme_file_uri(). 'images/home/iframe4.png';?>" alt="" />
+										<img src="<?php echo get_theme_file_uri(). '/images/home/iframe4.png';?>" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -85,49 +85,117 @@
 					<div class="col-sm-2">
 						<div class="single-widget">
 							<h2>Service</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Online Help</a></li>
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Order Status</a></li>
-								<li><a href="#">Change Location</a></li>
-								<li><a href="#">FAQ’s</a></li>
-							</ul>
+								<?php
+								wp_nav_menu(
+									array(									
+										'theme_location'       => 'service',
+										'menu'                 => '',
+								        'container'            => 'ul',							        
+										'container_class'      => '',
+								        'container_id'         => '',
+								        'container_aria_label' => '',
+								        'menu_class'           => 'nav nav-pills nav-stacked',
+								        'menu_id'              => '',
+								        'echo'                 => true,
+								        'fallback_cb'          => 'wp_page_menu',
+								        'before'               => '',
+								        'after'                => '',
+								        'link_before'          => '',
+								        'link_after'           => '',
+								        'items_wrap'           => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+								        'item_spacing'         => 'preserve',
+								        'depth'                => 0,
+								        'walker'               => ''
+										)
+									);
+								?>
 						</div>
 					</div>
 					<div class="col-sm-2">
 						<div class="single-widget">
 							<h2>Quock Shop</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">T-Shirt</a></li>
-								<li><a href="#">Mens</a></li>
-								<li><a href="#">Womens</a></li>
-								<li><a href="#">Gift Cards</a></li>
-								<li><a href="#">Shoes</a></li>
-							</ul>
+							<?php
+								wp_nav_menu(
+									array(									
+										'theme_location'       => 'quock-shop',
+										'menu'                 => '',
+								        'container'            => 'ul',							        
+										'container_class'      => '',
+								        'container_id'         => '',
+								        'container_aria_label' => '',
+								        'menu_class'           => 'nav nav-pills nav-stacked',
+								        'menu_id'              => '',
+								        'echo'                 => true,
+								        'fallback_cb'          => 'wp_page_menu',
+								        'before'               => '',
+								        'after'                => '',
+								        'link_before'          => '',
+								        'link_after'           => '',
+								        'items_wrap'           => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+								        'item_spacing'         => 'preserve',
+								        'depth'                => 0,
+								        'walker'               => ''
+										)
+									);
+								?>
 						</div>
 					</div>
 					<div class="col-sm-2">
 						<div class="single-widget">
 							<h2>Policies</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privecy Policy</a></li>
-								<li><a href="#">Refund Policy</a></li>
-								<li><a href="#">Billing System</a></li>
-								<li><a href="#">Ticket System</a></li>
-							</ul>
+							<?php
+								wp_nav_menu(
+									array(									
+										'theme_location'       => 'policies',
+										'menu'                 => '',
+								        'container'            => 'ul',							        
+										'container_class'      => '',
+								        'container_id'         => '',
+								        'container_aria_label' => '',
+								        'menu_class'           => 'nav nav-pills nav-stacked',
+								        'menu_id'              => '',
+								        'echo'                 => true,
+								        'fallback_cb'          => 'wp_page_menu',
+								        'before'               => '',
+								        'after'                => '',
+								        'link_before'          => '',
+								        'link_after'           => '',
+								        'items_wrap'           => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+								        'item_spacing'         => 'preserve',
+								        'depth'                => 0,
+								        'walker'               => ''
+										)
+									);
+								?>
 						</div>
 					</div>
 					<div class="col-sm-2">
 						<div class="single-widget">
 							<h2>About Shopper</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Company Information</a></li>
-								<li><a href="#">Careers</a></li>
-								<li><a href="#">Store Location</a></li>
-								<li><a href="#">Affillate Program</a></li>
-								<li><a href="#">Copyright</a></li>
-							</ul>
+							<?php
+								wp_nav_menu(
+									array(									
+										'theme_location'       => 'about-shopper',
+										'menu'                 => '',
+								        'container'            => 'ul',							        
+										'container_class'      => '',
+								        'container_id'         => '',
+								        'container_aria_label' => '',
+								        'menu_class'           => 'nav nav-pills nav-stacked',
+								        'menu_id'              => '',
+								        'echo'                 => true,
+								        'fallback_cb'          => 'wp_page_menu',
+								        'before'               => '',
+								        'after'                => '',
+								        'link_before'          => '',
+								        'link_after'           => '',
+								        'items_wrap'           => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+								        'item_spacing'         => 'preserve',
+								        'depth'                => 0,
+								        'walker'               => ''
+										)
+									);
+								?>
 						</div>
 					</div>
 					<div class="col-sm-3 col-sm-offset-1">
