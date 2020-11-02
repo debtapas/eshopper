@@ -37,7 +37,8 @@ get_header();
 							$i = 0;							
 								 while ( $loop -> have_posts() ) : $loop -> the_post();
 								 	$i++;
-								 	print_r($i); ?>
+								 	//print_r($i); die;
+								 	 ?>
 								 	<li data-target="#slider-carousel" data-slide-to="<?php echo $i; ?>" class="<?php echo ($i == 1) ? 'active' : ''; ?>"></li>
 								 <?php endwhile; ?>
 							

@@ -43,5 +43,16 @@ $(document).ready(function () {
             return false;
         __elem.val(parseInt(__elem.val()) - 1 );
     });
+
+
+
+//Menu Dropdown arrow show ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    jQuery("li").each(function(){
+        if(jQuery(this).hasClass("menu-item-has-children")) { 
+            jQuery(this).find('a:first').append("<i class='fa fa-angle-down'></i>");
+        }
+    });
+
     
 });

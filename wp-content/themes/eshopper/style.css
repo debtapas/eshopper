@@ -159,3 +159,16 @@ thead > .cart_menu {
     cursor: pointer;
     z-index: 2;
 }
+
+.nav-links a,
+.nav-links span.current{
+    background: #F0F0E9;
+    border: 0 none;
+    border-radius: 0;
+    color: #696763;
+    margin-right: 5px;
+    padding: 7px 12px;
+}
+#commentform .text-area{
+    margin-top: 0 !important;
+}

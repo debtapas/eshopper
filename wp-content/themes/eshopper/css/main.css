@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn:hover,
@@ -2305,6 +2305,7 @@ textarea {
 .text-area {
     margin-top: 66px
 }
+
 
 .text-area textarea {
     background: transparent;

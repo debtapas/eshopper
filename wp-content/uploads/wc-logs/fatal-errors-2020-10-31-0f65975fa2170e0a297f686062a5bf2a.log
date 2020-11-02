@@ -1,0 +1,16 @@
+2020-10-31T11:16:26+00:00 CRITICAL Uncaught Error: Call to undefined function wp_commend() in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\single.php:280
+Stack trace:
+#0 E:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 E:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\eshopper\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\single.php on line 280
+
+2020-10-31T11:32:59+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\single.php on line 300
+
+2020-10-31T11:33:15+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\single.php on line 300
+
+2020-10-31T11:33:28+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\single.php on line 300
+
+2020-10-31T11:36:30+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\single.php on line 285
+

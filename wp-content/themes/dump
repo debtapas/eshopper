@@ -1,0 +1,25 @@
+comments.php
+
+<?php
+	$comment_num = get_comments_number();
+
+	if ($comment_num != 0) { ?>
+		<h2>What other says</h2>
+		<ul class="media-list">
+			<?php
+				$comments = get_comments(												
+					array(
+					'post_id' => $post->ID,
+					'status' => 'approve'
+					));
+				wp_list_comments(
+					array(
+						'per_page' => 10,
+						'style' => '<ul class="sinlge-post-meta">'
+						),
+					$comments);
+			?>
+		</ul>
+
+	<?php  }
+?>
