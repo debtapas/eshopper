@@ -415,3 +415,10 @@ function eshopper_custom_pagination($numpages = '', $pagerange = '', $paged='') 
 }
 //add_action( 'woocommerce_after_shop_loop', 'eshopper_custom_pagination', 10 );
 
+add_filter('comment_reply_link', 'replace_reply_link_class');
+
+
+function replace_reply_link_class($class){
+    $class = str_replace("class='comment-reply-link", "class='btn-primary", $class);
+    return $class;
+}

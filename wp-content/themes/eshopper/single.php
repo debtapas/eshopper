@@ -172,8 +172,7 @@ get_header(); ?>
 							</div>
 								<?php echo get_the_post_thumbnail(get_the_ID()); ?>
 							
-							<p><?php the_content(); ?></p>
-
+							<p><?php echo $post->post_content; ?></p>
 					
 							<div class="pager-area">
 								<ul class="pager pull-right">
@@ -205,7 +204,7 @@ get_header(); ?>
 					</div><!--/rating-area-->
 
 					<div class="socials-share">
-						<a href=""><img src="<?php echo get_theme_file_uri() . '/images/blog/socials.png'; ?>" alt=""></a>
+						<a href="<?php echo "https://www.facebook.com/sharer/sharer.php?u=" . get_the_permalink(); ?>"><img src="<?php echo get_theme_file_uri() . '/images/blog/socials.png'; ?>" alt=""></a>
 					</div><!--/socials-share-->
 
 					<div class="media commnets">

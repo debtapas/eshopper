@@ -23,7 +23,8 @@
 							<h2><?php comments_number('NO RESPONSES', 'ONE RESPONSES', '% RESPONSES'); ?></h2>
 							
 							<ul class="media-list">
-								<?php wp_list_comments( 'callback=eshopper_custom_comments' ); ?>
+								<?php wp_list_comments( 
+									'callback=eshopper_custom_comments' ); ?>
 							</ul>
 							
 						<?php endif; ?>					

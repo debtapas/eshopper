@@ -48,3 +48,28 @@
 
 2020-11-02T09:22:32+00:00 CRITICAL syntax error, unexpected ''max_depth'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in E:\xampp\htdocs\eshopper\wp-content\themes\eshopper\functions.php on line 42
 
+2020-11-02T11:12:16+00:00 CRITICAL Uncaught Error: Call to undefined function wp_author() in C:\xampp\htdocs\eshopper\wp-content\themes\eshopper\functions.php:28
+Stack trace:
+#0 C:\xampp\htdocs\eshopper\wp-includes\class-walker-comment.php(179): eshopper_custom_comments(Object(WP_Comment), Array, 1)
+#1 C:\xampp\htdocs\eshopper\wp-includes\class-wp-walker.php(144): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#2 C:\xampp\htdocs\eshopper\wp-includes\class-walker-comment.php(139): Walker->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#3 C:\xampp\htdocs\eshopper\wp-includes\class-wp-walker.php(387): Walker_Comment->display_element(Object(WP_Comment), Array, '5', 0, Array, '')
+#4 C:\xampp\htdocs\eshopper\wp-includes\comment-template.php(2182): Walker->paged_walk(Array, '5', 0, 0, Array)
+#5 C:\xampp\htdocs\eshopper\wp-content\themes\eshopper\comments.php(26): wp_list_comments('callback=eshopp...')
+#6 C:\xampp\htdocs\eshopper\wp-includes\comment-template.php(1513): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\eshop in C:\xampp\htdocs\eshopper\wp-content\themes\eshopper\functions.php on line 28
+
+2020-11-02T11:49:37+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\eshopper\wp-content\themes\eshopper\functions.php on line 74
+
+2020-11-02T12:43:38+00:00 CRITICAL syntax error, unexpected ''add_below'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\eshopper\wp-content\themes\eshopper\functions.php on line 52
+
+2020-11-02T13:17:27+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\eshopper\wp-content\themes\eshopper\single.php:175
+Stack trace:
+#0 C:\xampp\htdocs\eshopper\wp-includes\template-loader.php(98): include()
+#1 C:\xampp\htdocs\eshopper\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\eshopper\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\eshopper\wp-content\themes\eshopper\single.php on line 175
+
+2020-11-02T13:49:45+00:00 CRITICAL syntax error, unexpected 'col' (T_STRING), expecting ')' in C:\xampp\htdocs\eshopper\wp-content\themes\eshopper\comments.php on line 77
+
