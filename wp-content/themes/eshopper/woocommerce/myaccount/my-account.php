@@ -25,6 +25,7 @@ defined( 'ABSPATH' ) || exit;
 do_action( 'woocommerce_account_navigation' ); ?>
 
 <div class="woocommerce-MyAccount-content">
+	<h1>This is My account php file</h1>
 	<?php
 		/**
 		 * My Account content.
