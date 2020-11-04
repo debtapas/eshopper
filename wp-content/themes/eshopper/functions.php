@@ -48,20 +48,37 @@ function eshopper_custom_comments($comment, $args, $depth) {
 	      </a>
 
 	     </div>
-    </li>
-
-     <!-- <ul class="media-list">
-							<li class="media">
-								<div class="media-body">
-									<ul class="sinlge-post-meta">
-										<li><i class="fa fa-user"></i>Janis Gallagher</li>
-										<li><i class="fa fa-clock-o"></i> 1:33 pm</li>
-										<li><i class="fa fa-calendar"></i> DEC 5, 2013</li>
-									</ul>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-									<a class="btn btn-primary" href=""><i class="fa fa-reply"></i>Replay</a>
-								</div>
-							</li>
-						</ul>	 -->		
+    </li>	
 <?php }
+
+/**
+* Edit my account menu order
+*/
+function my_account_menu_order() {
+    $menuOrder = array(
+       'dashboard' => __( 'Dashboard', 'woocommerce' ),
+       'orders' => __( 'Orders', 'woocommerce' ),
+       'downloads' => __( 'Download', 'woocommerce' ),
+       'edit-address' => __( 'Addresses', 'woocommerce' ),
+       'edit-account' => __( 'Account Details', 'woocommerce' ),
+       'rewards' => __( 'Your Rewards', 'woocommerce' ),
+       'customer-logout' => __( 'Logout', 'woocommerce' ),
+  );
+ return $menuOrder;
+}
+add_filter ( 'woocommerce_account_menu_items', 'my_account_menu_order' );
+/**
+* Register new endpoints to use inside My Account page.
+*/
+     add_action( 'init', 'my_account_new_endpoints' );
+     function my_account_new_endpoints() {
+     add_rewrite_endpoint( 'rewards', EP_ROOT | EP_PAGES );
+}
+/**
+* Get new endpoint content
+*/
+// Rewards
+ add_action( 'woocommerce_account_rewards_endpoint', 'rewards_endpoint_content' );
+    function rewards_endpoint_content() {
+ get_template_part('/woocommerce/myaccount/my-account-rewards');
+}
