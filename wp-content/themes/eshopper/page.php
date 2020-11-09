@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="row">
 
-				<?php if( wc_get_page_ID( 'cart' ) != get_the_id() && wc_get_page_ID( 'checkout' ) != get_the_id() ) : ?>
+				<?php if( wc_get_page_ID( 'my-account' ) != get_the_id() && wc_get_page_ID( 'cart' ) != get_the_id() && wc_get_page_ID( 'checkout' ) != get_the_id() ) : ?>
 
 					<div class="col-sm-3">
 						<div class="left-sidebar">
@@ -20,7 +20,7 @@
 
 				<div class="
 						<?php
-							if ( wc_get_page_id( 'cart' ) != get_the_ID() && wc_get_page_id( 'checkout' ) != get_the_ID() ) {
+							if ( wc_get_page_ID( 'my-account' ) != get_the_id() && wc_get_page_id( 'cart' ) != get_the_ID() && wc_get_page_id( 'checkout' ) != get_the_ID() ) {
 							  echo "col-md-9";
 							} else {
 							  echo "col-md-12";
@@ -37,7 +37,7 @@
 									<div class="single-blog-post">
 									<h2 class="title text-center"><?php the_title(); ?></h2>
 
-									<?php if ( wc_get_page_ID( 'cart' ) != get_the_id() && wc_get_page_ID( 'checkout' ) != get_the_id() ) { ?>								
+									<?php if ( wc_get_page_ID( 'my-account' ) != get_the_id() && wc_get_page_ID( 'cart' ) != get_the_id() && wc_get_page_ID( 'checkout' ) != get_the_id() ) { ?>								
 
 										<div class="post-meta">									
 										<ul>
@@ -68,7 +68,7 @@
 
 								
 								<p><?php the_content(); ?></p>
-								<a  class="btn btn-primary" href="">Read More</a>
+								<!-- <a  class="btn btn-primary" href="">Read More</a> -->
 
 								<?php
 									// If comments are open or we have at least one comment, load up the comment template.

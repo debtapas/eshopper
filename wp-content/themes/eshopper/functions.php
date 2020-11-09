@@ -52,7 +52,7 @@ function eshopper_custom_comments($comment, $args, $depth) {
 <?php }
 
 /**
-* Edit my account menu order
+* 1.Edit my account menu order
 */
 function my_account_menu_order() {
     $menuOrder = array(
@@ -68,14 +68,14 @@ function my_account_menu_order() {
 }
 add_filter ( 'woocommerce_account_menu_items', 'my_account_menu_order' );
 /**
-* Register new endpoints to use inside My Account page.
+* 2.Register new endpoints to use inside My Account page.
 */
      add_action( 'init', 'my_account_new_endpoints' );
      function my_account_new_endpoints() {
      add_rewrite_endpoint( 'rewards', EP_ROOT | EP_PAGES );
 }
 /**
-* Get new endpoint content
+* 3.Get new endpoint content
 */
 // Rewards
  add_action( 'woocommerce_account_rewards_endpoint', 'rewards_endpoint_content' );

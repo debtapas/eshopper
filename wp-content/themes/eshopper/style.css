@@ -172,12 +172,3 @@ thead > .cart_menu {
 #commentform .text-area{
     margin-top: 0 !important;
 }
-
- /*WooCommerce My Account Navigation*/
-.woocommerce-MyAccount-navigation {
-    display: none;
-}
-
-.woocommerce-account .woocommerce-MyAccount-content {
-    width: 100%;
-}
