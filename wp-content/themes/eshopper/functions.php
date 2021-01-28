@@ -82,3 +82,71 @@ add_filter ( 'woocommerce_account_menu_items', 'my_account_menu_order' );
     function rewards_endpoint_content() {
  get_template_part('/woocommerce/myaccount/my-account-rewards');
 }
+
+
+//1// https://www.youtube.com/watch?v=mzSTO3HtoPw
+//2//https://www.youtube.com/watch?v=HafkLf1EPdw
+//https://codex.wordpress.org/Customizing_the_Login_Form
+
+
+// Customization of Login Form
+function my_custom_login_error_msg($error){
+	//code for custom error messages
+	global $errors;
+
+	//empty_password, invalid_username, incorrect_password,  empty_username
+	//$error_code = $errors->get_error_codes();
+	$error_code = $errors->get_error_codes();
+
+	$error_msg = '';
+	if(in_array('empty_password', $error_code)){
+		$error_msg = "You have no value in password field";
+	}
+	if(in_array('invalid_username', $error_code)){
+		$error_msg = "Invalid username DETECTED";
+	}
+
+	if(in_array('incorrect_password', $error_code)){
+		$error_msg = "Incorrect password found in your field";
+	}
+	return $error_msg;
+
+}
+add_filter("login_errors", "my_custom_login_error_msg");
+
+function my_log_in_custom_msg(){
+	// Login message to show to users login page
+	return "<p style='text-align: center;font-size: 16px;'>A free e-commerce bootstrap template based on Bootstrap</p>";
+}
+add_filter("login_message", "my_log_in_custom_msg");
+
+
+function custom_link_to_logo(){
+	// code to attach url to our logo
+	return "yahoo.com";
+
+}
+add_filter("login_headerurl", "custom_link_to_logo");
+
+
+function my_custom_link(){
+	//append custom url link in footer
+	echo "<p style = 'text-aling'><a href='www.google.com'>Google</a></p>";
+}
+add_action("login_footer", "my_custom_link");
+
+
+
+// Customize wordpress login form 
+
+function my_custom_logo(){
+	//code to change logo
+	$logo_style = "<style type='text/css'>";
+	$logo_style .= ".login h1 a {
+            background-image: url('".get_stylesheet_directory_uri()."/images/home/logo.png') !important; }";
+	$logo_style .= "</style>";
+
+	echo $logo_style;
+}
+
+add_action( "login_head", "my_custom_logo" );
