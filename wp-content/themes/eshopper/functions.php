@@ -1,4 +1,37 @@
+<!-- nayyar_shaikh
+https://www.youtube.com/watch?v=6DZs_EeCPHc
+
+00:00 Introduction
+00:29 WooCommerce PDF Invoices & Packing Slips by Ewout Fernhout
+03:55 Product Enquiry for WooCommerce by WisdmLabs
+05:02 WooCommerce Advanced Free Shipping By Jeroen Sormani
+07:09 Email Customizer for WooCommerce By ThemeHigh
+08:32 WP Mail SMTP By WPForms
+10:24 TeraWallet – For WooCommerce By WCBeginner
+12:37 Custom Product Tabs for WooCommerce By YIKES, Inc.
+13:51 Waitlist Woocommerce Back in stock notifier By xootix
+15:09 Variation Swatches for WooCommerce By Emran Ahmed
+16:53 Sumo – Boost Conversion and Sales By SumoMe
+17:55 AfterShip – WooCommerce Tracking By AfterShip
+19:31 YITH WooCommerce Wishlist By YITH
+20:30 WooCommerce Stripe Payment Gateway By WooCommerce
+22:13 MC4WP: Mailchimp for WordPress By ibericode
+24:03 Direct Checkout for WooCommerce By QuadLayers
+25:15 WCFM & Dokan Multi Vendor eCommerce Website
+26:53 WOOF – Products Filter for WooCommerce By realmag777
+27:56 Checkout Field Editor Checkout Manager for WooCommerce By ThemeHigh
+29:15 Enhanced Ecommerce Google Analytics Plugin for WooCommerce By Tatvic
+30:09 Abandoned Cart Lite for WooCommerce By Tyche Softwares
+ -->
 <?php
+/*	
+	Tutorial ~~~~~~~~~~~
+	https://www.youtube.com/watch?v=Sye85CBVpI0&list=PLylQxnm2NlhXWFDov8cI10Yveit58C-LX
+
+	Shop page = archive-product.php
+	To change wrapper class/id = woocommerce/global/wrapper-start.php
+
+*/
 include( get_template_directory() . '/inc/support.php' );
 include( get_template_directory() . '/inc/enqueue.php' );
 include( get_template_directory() . '/inc/theme_support.php' );
@@ -53,6 +86,7 @@ function eshopper_custom_comments($comment, $args, $depth) {
 
 /**
 * 1.Edit my account menu order
+* https://www.youtube.com/watch?v=mzSTO3HtoPw
 */
 function my_account_menu_order() {
     $menuOrder = array(
@@ -69,6 +103,7 @@ function my_account_menu_order() {
 add_filter ( 'woocommerce_account_menu_items', 'my_account_menu_order' );
 /**
 * 2.Register new endpoints to use inside My Account page.
+* https://www.youtube.com/watch?v=HafkLf1EPdw
 */
      add_action( 'init', 'my_account_new_endpoints' );
      function my_account_new_endpoints() {
@@ -83,9 +118,6 @@ add_filter ( 'woocommerce_account_menu_items', 'my_account_menu_order' );
  get_template_part('/woocommerce/myaccount/my-account-rewards');
 }
 
-
-//1// https://www.youtube.com/watch?v=mzSTO3HtoPw
-//2//https://www.youtube.com/watch?v=HafkLf1EPdw
 //https://codex.wordpress.org/Customizing_the_Login_Form
 
 
@@ -150,3 +182,90 @@ function my_custom_logo(){
 }
 
 add_action( "login_head", "my_custom_logo" );
+
+
+//Register a REST API route in wordpress ~~~~~~~~~
+// https://www.youtube.com/watch?v=ZiUTP8lniK8&t=8s
+
+add_action('rest_api_init', 'tkd_first_custom_route' );
+
+function tkd_first_custom_route($server){
+		register_rest_route("tkd/v1", "/simple", array(
+		// "methods"	=>	"GET, POST, PUT, DELETE, PATCH",
+		// "methods"	=>	WP_REST_Server::READABLE, //Only GET Method
+		"methods"	=>	WP_REST_Server::CREATABLE, //Only POST Method
+		// "methods"	=>	WP_REST_Server::EDITABLE, //Only POST, PUT, PATCH Method
+		// "methods"	=>	WP_REST_Server::DELETABLE, //Only DELETE Method
+		// "methods"	=>	WP_REST_Server::ALLMETHODS, //GET, POST, PUT, DELETE, PATCH Methods
+		"callback"	=>	"call_me_simple_route",
+			$arg = array(
+				"name"	=>	array(
+					"type"	=>	"string"
+					),
+				"email"	=>	array(
+					"type"	=>	"string"
+					),
+				"age"	=>	array(
+					"type"	=>	"integer"
+					)
+				)
+		));
+}
+
+function call_me_simple_route(){
+	//https://www.youtube.com/watch?v=W4CKF3VS7zs
+
+	$request_type = $_SERVER["REQUEST_METHOD"];
+	// print_r($request_type);
+	// die();
+	if($request_type == "GET"){
+		return array("status" => 1, "method" => "get");
+	}elseif ($request_type == "POST") {
+		return array("status" => 1, "method" => "post");
+	}elseif ($request_type == "PUT") {
+		return array("status" => 1, "method" => "put");
+	}elseif ($request_type == "DELETE") {
+		return array("status" => 1, "method" => "delete");
+	}elseif ($request_type == "PATCH") {
+		return array("status" => 1, "method" => "patch");
+	}
+	// global $wpdb;
+	// $users_list = $wpdb->get_results(
+		// $wpdb->prepare("SELECT * from ".$wpdb->prefix ."users ORDER by ID desc", ""), ARRAY_A);
+		// return array("status"=>1, "message"=>"Simple rount has been called", "method"=>"GET");
+	// return $users_list;
+	}
+
+function blog_posts_func( $data ){
+	$args=[
+		'numberposts' => 99999,
+		'post_type' => 'post',
+	];
+	$posts = get_posts($args);
+	$data = [];
+	$i = 0;
+
+	echo "<pre>";
+	print_r($posts);
+	die();
+
+	foreach( $posts as $post ){
+		$data[$i]['id'] = $post->ID;
+		$data[$i]['title'] = $post->post_title;
+      $data[$i]['content'] = $post->post_content;
+      $data[$i]['slug'] = $post->post_name;
+
+		$i++;
+	}
+
+return $data;
+
+}
+
+
+	add_action( 'rest_api_init', function () {
+      register_rest_route( 'blog/v2', 'posts', [
+        'methods' => 'GET',
+        'callback' => 'blog_posts_func',
+      ] );
+   });
