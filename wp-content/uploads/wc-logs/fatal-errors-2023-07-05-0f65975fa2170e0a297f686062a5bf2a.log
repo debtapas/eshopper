@@ -1,0 +1,1352 @@
+2023-07-05T15:00:48+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:20+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:20+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:21+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:21+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:21+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:27+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:27+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:27+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:28+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:36+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:36+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:37+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:37+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:01:51+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:02:06+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:02:21+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:02:21+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:02:36+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:02:52+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:02:57+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:02:57+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:02:57+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:02:57+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:02:57+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:06+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:06+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:06+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:06+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:06+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:09+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:09+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:10+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:10+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:12+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:15+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:15+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:16+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:20+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:30+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:03:45+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:04:00+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:04:16+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:04:56+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:04:57+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:02+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:03+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:03+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:03+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:04+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:08+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:08+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:08+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:08+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:11+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:22+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:22+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:23+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:23+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:23+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:27+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:27+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:28+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:28+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:38+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:39+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:39+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:39+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:40+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:05:54+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:06:35+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:06:36+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:06:50+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:06:51+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:06:55+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:06:56+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:06:56+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:06:56+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:06:56+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:07:11+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:08:03+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:08:18+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:08:18+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:08:18+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:08:18+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:08:33+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:08:50+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:09:05+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:09:11+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:11:05+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:11:11+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:13:05+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:13:11+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:14:16+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:14:17+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:14:31+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:14:32+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:14:46+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:14:47+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:15:01+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:16:47+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:17:01+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:49:40+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+
+2023-07-05T15:49:44+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php:2786
+Stack trace:
+#0 D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php(2786): method_exists(NULL, 'switch_lang')
+#1 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(308): BeRocket_AAPF->WPML_fix('')
+#2 D:\xamp\htdocs\eshopper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xamp\htdocs\eshopper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xamp\htdocs\eshopper\wp-settings.php(549): do_action('setup_theme')
+#5 D:\xamp\htdocs\eshopper\wp-config.php(93): require_once('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\eshopper\wp-load.php(50): require_once('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\eshopper\wp-admin\admin-ajax.php(22): require_once('D:\\xamp\\htdocs\\...')
+#8 {main}
+  thrown in D:\xamp\htdocs\eshopper\wp-content\plugins\woocommerce-ajax-filters\main.php on line 2786
+

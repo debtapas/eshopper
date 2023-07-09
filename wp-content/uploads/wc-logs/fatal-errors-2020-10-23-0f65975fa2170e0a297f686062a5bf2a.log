@@ -1,4 +1,0 @@
-2020-10-23T08:40:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\eshopper\wp-includes\wp-db.php on line 2030
-
-2020-10-23T08:59:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\eshopper\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Notes_Onboarding_Profiler.php on line 10
-

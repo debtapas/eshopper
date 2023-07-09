@@ -1,5 +1,0 @@
-2021-05-12T04:18:02+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in D:\xampp\htdocs\eshopper\create-post.php:20
-Stack trace:
-#0 {main}
-  thrown in D:\xampp\htdocs\eshopper\create-post.php on line 20
-

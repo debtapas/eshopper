@@ -192,12 +192,12 @@ add_action('rest_api_init', 'tkd_first_custom_route' );
 function tkd_first_custom_route($server){
 		register_rest_route("tkd/v1", "/simple", array(
 		// "methods"	=>	"GET, POST, PUT, DELETE, PATCH",
-		// "methods"	=>	WP_REST_Server::READABLE, //Only GET Method
-		"methods"	=>	WP_REST_Server::CREATABLE, //Only POST Method
+		// "methods"	=>	WP_REST_Server::READABLE, //Only GET Method		
 		// "methods"	=>	WP_REST_Server::EDITABLE, //Only POST, PUT, PATCH Method
 		// "methods"	=>	WP_REST_Server::DELETABLE, //Only DELETE Method
 		// "methods"	=>	WP_REST_Server::ALLMETHODS, //GET, POST, PUT, DELETE, PATCH Methods
-		"callback"	=>	"call_me_simple_route",
+			"methods"	=>	WP_REST_Server::CREATABLE, //Only POST Method
+			"callback"	=>	"call_me_simple_route",
 			$arg = array(
 				"name"	=>	array(
 					"type"	=>	"string"
